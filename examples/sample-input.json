@@ -1,0 +1,33 @@
+{
+  "metrics": [
+    {
+      "ts": 1000,
+      "name": "cpu",
+      "value": 10
+    },
+    {
+      "ts": 2000,
+      "name": "cpu",
+      "value": 11
+    },
+    {
+      "ts": 3000,
+      "name": "cpu",
+      "value": 90
+    }
+  ],
+  "deploys": [
+    {
+      "ts": 2500,
+      "version": "2.0.0",
+      "service": "web"
+    }
+  ],
+  "logs": [
+    {
+      "ts": 2600,
+      "level": "error",
+      "msg": "oom exception"
+    }
+  ]
+}
